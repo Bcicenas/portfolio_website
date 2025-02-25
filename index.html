@@ -63,8 +63,8 @@
 					<img src="assets/images/profile.avif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
 				</div>
 		      	<div class="col-lg-6">
-		        	<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm [Name], a [Profession]</h1>
-		        	<p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+		        	<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm John Doe, a Frontend Developer</h1>
+		        	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit eu felis eu cursus. Aliquam ultricies dictum sem et fermentum. Curabitur semper, orci in consectetur elementum, elit nisl imperdiet erat, nec consequat neque nulla sit amet ex. Ut lacinia, tellus iaculis porta accumsan, risus lectus mattis neque, sed viverra ipsum mi a risus. Mauris ut augue sodales odio facilisis convallis ac quis justo.</p>
 		        	<div class="d-grid gap-2 d-md-flex justify-content-md-start">
 		          		<a class="btn btn-primary btn-lg px-4 me-md-2" href="#ContactSection">Hire Me</a>
 		          		<a class="btn btn-outline-secondary btn-lg px-4" href="#PortfolioSection">View Portfolio</a>
@@ -72,37 +72,40 @@
 		      	</div>
 		    </div>
 		</div>
-		<div class="container px-4 py-5" id="AboutSection">
-			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About</h2>
+		<div class="container col-xxl-8 px-4 py-5" id="AboutSection">
+			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">About Me</h2>
+			<img src="assets/images/profile.avif" class="d-block mx-lg-auto img-fluid" alt="Profile Image">
+			<h3 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 text-center">Frontend Developer</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit eu felis eu cursus. Aliquam ultricies dictum sem et fermentum. Curabitur semper, orci in consectetur elementum, elit nisl imperdiet erat, nec consequat neque nulla sit amet ex. Ut lacinia, tellus iaculis porta accumsan, risus lectus mattis neque, sed viverra ipsum mi a risus. Mauris ut augue sodales odio facilisis convallis ac quis justo.</p>
 		</div>
-		<div class="container px-4 py-5" id="PortfolioSection">
-			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Portfolio</h2>
+		<div class="container col-xxl-8 px-4 py-5" id="PortfolioSection">
+			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">Portfolio</h2>
 		</div>
-		<div class="container px-4 py-5" id="TestimonialsSection">
-			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Testimonials</h2>
+		<div class="container col-xxl-8 px-4 py-5" id="TestimonialsSection">
+			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">Testimonials</h2>
 		</div>
-		<div class="container px-4 py-5" id="ContactSection">
-			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Contact Me</h2>
-			<div class="mb-3">
-				<label for="contactFirstName" class="form-label">First Name</label>
-				<input type="email" class="form-control" id="contactFirstName">
+		<div class="container col-xxl-8 px-4 py-5" id="ContactSection">
+			<h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center">Contact Me</h2>
+			<div class="row g-3 mb-3">
+				<div class="col">
+					<input type="email" class="form-control" id="contactFirstName" placeholder="First Name">
+				</div>
+				<div class="col">
+					<input type="email" class="form-control" id="contactLastName" placeholder="Last Name">
+				</div>				
 			</div>
+			<div class="row g-3 mb-3">
+				<div class="col">
+					<input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="Email">
+
+					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+				</div>
+				<div class="col">
+					<input type="email" class="form-control" id="contactSubject"  placeholder="Subject">
+				</div>	
+			</div>			
 			<div class="mb-3">
-				<label for="contactLastName" class="form-label">Last Name</label>
-				<input type="email" class="form-control" id="contactLastName">
-			</div>
-			<div class="mb-3">
-				<label for="contactEmail" class="form-label">Email address</label>
-				<input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp">
-				<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-			</div>
-			<div class="mb-3">
-				<label for="contactSubject" class="form-label">Subject</label>
-				<input type="email" class="form-control" id="contactSubject">
-			</div>				
-			<div class="mb-3">
-				<label for="contactMessage" class="form-label">Message</label>
-				<textarea class="form-control" id="contactMessage" rows="3"></textarea>
+				<textarea class="form-control" id="contactMessage" rows="6" placeholder="Message"></textarea>
 			</div>			  
 			<button type="submit" class="btn btn-primary">Submit</button>
 
